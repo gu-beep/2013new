@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>良仓登录</title>
+    <link rel="stylesheet" href="css/resat.css">
+    <link rel="stylesheet" href="css/denglu.css">
+    <style>
+         .p02{
+            color: red;
+        }
+        .p03{
+            color: seagreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="log">
+        <img src="images/nlicon.png" alt="">
+    </div>
+    <div id="login">
+        <form>
+           <input type="text" placeholder="输入手机号" class="txt"> <label class="abe"></label><br/>
+           <input type="text" placeholder="输入验证码" class="sub">
+            <button>获取验证码</button><br/>
+            <input type="checkbox" name="a0" value="全选">自动登录<br/>
+            <input type="submit" value="登录" class="suu"><br/>
+            <a href="#">更多登录方式 ></a>
+        </form>
+       
+    </div>
+    <script>
+           var input=document.querySelector(".txt");//手机号
+        var pp=document.querySelector('.abe')
+        input.onblur=function(){
+          /*   if(this.value.length<6 || this.value.length>16) */
+            if(this.value.length>11){
+                pp.className='pp p02'
+                pp.innerHTML='请输入的正确的手机号码'
+            }else if (this.value.length<11){
+                pp.className='pp p02'
+                pp.innerHTML='请输入的正确的手机号码'
+            }else{
+                pp.className='pp p03'
+                pp.innerHTML='输入正确'
+            }
+           
+        } 
+        //获取操作元素
+        var suo1=document.querySelector('.suu')
+        suo1.onclick=function(){
+                alert('请填写手机号')
+          
+        }
+       </script> 
+</body>
+</html>

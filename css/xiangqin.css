@@ -1,0 +1,135 @@
+.contaion{
+    width: 1000px;
+    margin:0 auto;
+}
+.dgptop{
+    margin: 10px auto;
+    font-size: 13px;
+}
+
+#dgq ol li{
+    float: left;
+    width: 50px;
+    height: 50px;
+/*     background: pink; */
+    margin: 0 9px;
+}
+/* 放大镜 */
+.exzoom_nav_inner span{
+    margin-left: 3px !important;
+}
+.box2{
+    width: 330px;
+    height: 450px;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+.box2 .i01{
+    font-size: 18px;
+}
+.box2 em{
+   line-height: 48px;
+    font-size: 22px;
+    color: #959185;
+   
+}
+.box2 p{
+    font-weight: bold;
+    color: #444849;
+    font-size: 19px;
+}
+.box2 b{
+    color: #287fe6;
+    font-size: 16px;
+  
+}
+.box2 span{
+    display: inline-block;
+    margin: 17px 10px;
+   font-size: 12px;
+   color: #abacae;
+}
+.box2 .abb{
+    display:inline-block;
+    width: 46px;
+    height: 22px;
+    border: 1px solid #000;
+    background: #dbdbdb;
+    text-align: center;
+    line-height: 22px;
+    margin: 0 0 30px 10px;
+    
+}
+.box2 form input{
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.box2 form .suu{
+    display: block;
+    width: 330px;
+    height: 38px;
+    margin-top: 30px; 
+    background: #25292e;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 38px;
+}
+.box2 .art1,.art2{
+    display: inline-block;
+    width: 160px;
+    height: 36px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 38px;
+}
+.box2 form .txt{
+    text-align: center;
+}
+.dgptop,.box3 .lve p{
+    color: #c3c2be;
+}
+/* 猜你喜欢 */
+.box3{
+    width: 200px;
+    height: 1309px;
+    float: right;
+}  
+.box3 .lve img{
+    margin: 10px 0;
+}
+.box3 .lve{
+    margin-bottom: 30px;
+}
+.imgall img{
+    width: 720px;
+    height: 1094px;
+
+}
+.brand h3{
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.brand .introduce{
+    margin-bottom: 20px;
+}
+.brand p{
+    font-size: 12px;
+    line-height: 26px;
+  
+}
+.brand .guide a{
+    display: block;
+    width: 100px;
+    height: 28px;
+    border: 2px solid #6f6f6f;
+    line-height: 28px;
+    text-align: center;
+    margin: 20px 0 100px 0;
+
+}

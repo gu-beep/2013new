@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>良仓注册</title>
+    <link rel="stylesheet" href="css/resat.css">
+    <link rel="stylesheet" href="css/zhuce.css">
+    <style>
+        .p02{
+            color: red;
+        }
+        .p03{
+            color: seagreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="log">
+        <img src="images/logo_icon.png" alt="" class="img1">
+        <form class="oro" onsubmit="return checkForm">
+        <div class="a has-orror">
+         <span>手机号</span><input type="text" placeholder="输入手机号" class="txt"><label class="abe"></label><br/>
+        </div>
+         <span>验证码</span><input type="text" placeholder="输入验证码" class="sub"><button></button><strong>看不清，换一张</strong><br/>
+         <span>创建密码</span><input type="password" placeholder="6位数字" class="suu skk"><label class="abe2"></label><br/>
+         <span>密码确认</span><input type="password" placeholder="密码确认" class="suu skk1"><label class="abe3"></label><br/>
+         <div class="boc"> 
+              <input type="checkbox" name="a0" value="全选"> <i>同意</i> <em>良仓注册条款</em> 
+        </div>
+            <br/>
+           <a class="cla" href="#"><input type="submit" name="sub" value="立即注册" class="suo"><br/></a>
+        </form>
+        <div class="login">
+            <a href="#"><img src="images/img5(2).jpg" alt=""></a> 
+            <a href="#"><img src="images/img5(3).jpg" alt=""></a>
+            <a href="#"><img src="images/img5(4).jpg" alt=""></a>
+            <a href="#"><img src="images/img5(1).jpg" alt=""></a> 
+        <a class="a01" href="./02denglu.html">登录良仓</a>
+    </div>
+    </div>
+    <script>
+        //表单验证方法
+         //获取操作元素
+         var input=document.querySelector(".txt");//手机号
+        var pp=document.querySelector('.abe')
+        var input1=document.querySelector(".skk");//输入创建密码
+        var pp1=document.querySelector('.abe2')
+        var input2=document.querySelector(".skk1");//确认密码
+        var pp2=document.querySelector('.abe3')
+        //绑定被点击的事件源
+        input.onblur=function(){
+          /*   if(this.value.length<6 || this.value.length>16) */
+            if(this.value.length>11){
+                pp.className='pp p02'
+                pp.innerHTML='你输入的正确的手机号码'
+            }else if (this.value.length<11){
+                pp.className='pp p02'
+                pp.innerHTML='你输入的正确的手机号码'
+            }else{
+                pp.className='pp p03'
+                pp.innerHTML='输入正确'
+            }
+           
+        } 
+         input1.onblur=function(){
+            if(this.value.length>6){
+                pp1.className='pp p02'
+                pp1.innerHTML='你输入6位数字密码'
+            }else if (this.value.length<6){
+                pp1.className='pp p02'
+                pp1.innerHTML='你输入6位数字密码'
+            } else{
+                pp1.className='pp p03'
+                pp1.innerHTML='输入正确'
+            }
+           
+        } 
+        input2.onblur=function(){
+            if(input1.innerHTML== input2.innerHTML){
+                pp2.className='pp p03'
+                pp2.innerHTML='密码相同'
+            }else{
+                pp2.className='pp p02'
+                pp2.innerHTML='密码相同'
+            }
+           
+        } 
+         input2.onblur=function(){
+            if(input1.innerHTML !== input2.innerHTML){
+                pp2.className='pp p02'
+                pp2.innerHTML='密码相同'
+            }else{
+                pp2.className='pp p03'
+                pp2.innerHTML='密码不相同'
+            }
+           
+        }  
+        var suo1=document.querySelector('.cla')
+        suo1.onclick=function(){
+                alert('内容不能为空')
+          
+        }
+    </script>
+</body>
+</html>

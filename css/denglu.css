@@ -1,0 +1,57 @@
+#log,#login{
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
+}
+#log img{
+    margin-left: 448px;
+    margin-top: 88px;
+}
+#login form{
+    margin-left: 362px;
+}
+#login form .txt,.sub{
+    width: 300px;
+    height: 34px;
+    border: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #0d0d0d;
+    background: url(../images/img1.jpg) no-repeat left;
+    color: #858585;
+    text-indent: 50px;
+    font-size: 16px;
+}
+#login form .sub{
+    width: 172px;
+    background: url(../images/img2.jpg) no-repeat left;
+}
+#login form button{
+    width: 132px;
+    height: 39px;
+    background: #fff;
+    border-radius: 6px;
+    border: 0;
+    border: 1px solid #0d0d0d;
+    margin-left: 20px;
+}
+#login form .tex1{
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+}
+#login form .suu{
+    width: 308px;
+    height: 50px;
+    margin-top: 30px;
+    background: #25292e;
+    border-radius: 6px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#login form a{
+    margin-left: 108px;
+    font-size: 16px;
+}

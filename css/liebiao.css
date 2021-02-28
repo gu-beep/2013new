@@ -1,0 +1,133 @@
+/* 小导航 */
+.navpp{
+    height: 40px;
+    margin: 10px 0;
+}
+.navoo{
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+.navoo .ul01{
+    width: 840px;
+}
+.navoo .ul01 li a{
+    width:64px ;
+    float: left;
+    margin: 14px 8px;
+  /*   border-bottom: 1px solid #ccc; */
+}
+.navpp span{
+    color: #cccccc;
+}
+.navoo{
+    margin-bottom: 20px;
+}
+/* 商品 */
+#maxbox{
+    min-height: 2000px;
+ 
+}
+
+#maxbox ol{ 
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+#maxbox h3{
+    height: 56px;
+    text-align: center;
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 50px;
+}
+#maxbox ol li{
+    display: block;
+    width: 316px;
+    height: 366px;
+    margin-bottom: 60px;
+}
+#maxbox .ann{
+    display: block;
+    width: 138px;
+    height: 42px;
+    border: 2px solid #000;
+    margin: 98px auto;
+    text-align: center;
+    line-height: 42px;
+    font-weight: bold;
+    font-style: italic;
+}
+#maxbox .ann:hover{
+    background: #000;
+    color: #fff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+}
+.pagination {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.opp-li .a4{
+    margin-left: 160px;
+    font-size: 18px;
+    color:#cccccc ;
+    font-weight: normal;
+}
+.opp-li .a5 img{
+    width: 40px;
+    height: 40px;
+    box-shadow: 7px 4px 6px -3px #cccc;
+}
+.opp-li strong .a5{
+    color: #cccccc;
+}
+.opp-li strong{
+    display: block;
+    margin-top: 20px;
+}
+/* 划过 */
+.opp-li{
+    position: relative;
+}
+.opp-li .over{
+    width: 300px;
+    height: 300px;
+    background:rgba(72, 72, 72, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 7;
+}
+.opp-li:hover .over{
+    display: block;
+}
+.opp-li .over .money{ 
+    color: #0c6eba;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 16px 0 76px 10px;
+}
+ .over .tle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+}
+ .over .des{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+}

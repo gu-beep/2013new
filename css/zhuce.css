@@ -1,0 +1,74 @@
+body,html{
+    background: #999999;
+}
+#log{
+    width: 530px;
+    height: 530px;
+    margin:0 auto;
+
+}
+#log .img1{
+    padding: 32px 77px;
+}
+form .txt,.sub{
+    margin-left: 50px;
+}
+form .suu{
+    margin-left: 36px;
+}
+form .txt,.sub,.suu,.suo{
+    width: 320px;
+    height: 50px;
+    background: #cbcbcb;
+    border: 0;
+    outline: none;
+    margin-bottom: 14px;
+    color: #fff;
+    font-weight:bold;
+    text-indent: 2em;
+    text-align: left;
+    cursor: pointer;
+}
+.sub{
+    width: 245px;
+    height: 50px;
+    margin-right: 30px;
+}
+span{
+    color: #fff;
+    font-weight:bold;
+}
+form .suo{
+    background: #25292e;
+    text-align: center;
+    margin-left: 92px;
+}
+button{
+    width: 64px;
+    height: 28px;
+}
+.boc{
+    margin: 10px 92px;
+}
+.boc i{
+    color: #fff;
+}
+.boc em{
+    color: #0c79cc;
+}
+.login{
+    padding: 10px 0 20px 84px;
+}
+.login .a01{
+    color: #fff;
+    text-decoration: underline;
+    line-height: 10px;
+    margin-left: 64px;
+    font-weight: bold;
+}
+.login a{
+    margin-right: 10px;
+}
+.login img:hover{
+    opacity: 0.5 #fff;
+}

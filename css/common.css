@@ -1,0 +1,324 @@
+/* 头部 */
+.contaion{
+    margin: 0 auto;
+    width: 1000px;
+}
+#header{
+    background: #25282d;
+}
+.header_inner{
+    height: 75px;
+    background: #25282d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo a{
+    display: block;
+    width: 127px;
+    height: 52px;
+    background: url(../images/logo.jpg)no-repeat;
+}
+.headrig{
+    width: 546px;
+}
+.headrig ul{
+    display: flex;
+    justify-content: space-between;
+    color: #696a6e;
+    font-size: 14px;
+    position: relative;
+}
+.headrig ul li{
+    width: 74px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.headrig ul li .a01,.a02{
+    position: absolute;
+    top: 66px;
+    left: 113px;
+    width: 426px;
+   /*  height: 104px; */
+    background: #292f34;
+    color: #fff;
+    font-size: 16px;
+    line-height: 86px;
+    display: none;
+    text-align: center;
+    z-index: 80;
+}
+.headrig ul li .a02{
+    top: 130px;
+    left: 113px;
+    height: 72px;
+    line-height: 72px;
+    display: none;
+}
+.headrig ul .ass:hover a{
+    display: block;
+    height: 66px;
+    background: #292f34;
+}
+.headrig ul li:hover .a01{
+    display: block;
+}
+.headrig ul li:hover .a02{
+    display: block;
+}
+.headrig ul .li01{
+    position: relative;
+}
+.headrig ul .li01 .dtop{
+    width: 248px;
+    height: 396px;
+    background: #292f34;
+    position: absolute;
+    top: 62px;
+    left: -106px;
+    padding: 0 22px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 80;
+}
+.headrig ul .li01 .dtop a{
+  /*   border-bottom: 1px solid #3f4449;  */
+    display: inline-block;
+    height: 66px;
+    width: 208px;
+    line-height: 20px;
+    padding: 22px 0;
+    box-sizing: border-box;
+}
+.headrig ul .li01 .dtop a i{
+   margin-left: 162px;
+}
+.headrig ul li a{
+  color: #cbcddc;
+}
+.headrig ul .li01:hover .dtop{
+    display: block;
+}
+/* 导航 */
+#nav{
+    height: 48px;
+    border-bottom: 4px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background: #fff;
+    position: sticky;
+    position: -webkit-sticky;   /* 兼容 -webkit 内核的浏览器 */
+    top: -1px;  
+    z-index: 8;
+}
+#nav ol{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+#nav ol li:nth-child(2){
+    position: relative;  
+}
+#nav ol li a{
+    display: block;
+    width: 118px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+#nav ol li:hover{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 4px solid #25282d;
+} 
+
+/* 菜单 */
+#nav ol .menu{
+    width: 1000px;
+    height: 500px;
+    background: #fff;
+    position: absolute;
+    top: 52px;
+    left: -120px;
+    display: none;
+    z-index: 9999;
+    
+}
+#nav ol .menu .dl01{
+    display: block;
+    width: 678px;
+    height: 500px;
+    
+}
+#nav ol .dl01 dl img{
+    width: 60%;
+}
+#nav ol .dl01 dl{
+    width: 85px;
+    height: 50px;
+    float: left;
+    margin-top: 34px;
+}  
+#nav ol .dl01 dl dd{
+    margin-top: -22px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#nav ol .bna1,.bna2{
+    float: left;
+   margin-top: 100px;
+}
+#nav ol:hover .bna1,.bna2{
+    border: 0;
+}
+#nav ol .menu .num{
+    float: right;
+    position: absolute;
+    top: 45px;
+    right: 5px;
+    z-index: 9999;
+}
+#nav ol .menu dl{
+    position: relative;
+    margin-left: 20px;
+    z-index: 9999;
+ 
+}
+.dl01 dl:nth-child(1) .tow{
+    width: 687px;
+    height: 100px;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 9999;
+}
+#nav ol .menu .num img{
+    display: block;
+}
+#nav ol .menu .num span{
+    margin-right: 40px;
+}
+/* 杂志菜单 */
+#nav ol .za,.fen{
+    position: relative; 
+    z-index: 9999;
+   
+}
+#nav ol .menu2,.menu3{
+    width: 1420px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    top: 52px;
+    left: -240px;
+    display: none;
+    z-index: 100;
+}
+#nav ol li:hover .menu2 a,.menu3 a{
+    border: 0;
+}
+#nav ol li .menu2 a,.menu3 a{
+    float: left;
+}
+/* 分享菜单 */
+#nav ol .menu3{
+    position: absolute;
+    top: 52px;
+    left: -360px;
+    z-index: 100; 
+}
+/* #nav ol li:hover .menu3 a{
+    border: 0;
+}
+#nav ol li .menu2 a{
+    float: left;
+} */
+
+#nav .txt{
+    width: 288px; 
+    float: left;
+    box-sizing: border-box;
+    border: 0;
+    border-left: 1px solid #000;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#nav .sub{
+    float: left;
+    width: 46px;
+    height: 24px;
+    background: url(../images/sesch.jpg)no-repeat center center;
+    border: 0;
+    border-left: 1px solid #ccc;
+}
+/* 底部良仓商店 */
+#shop{
+    background: #e6e6e6;
+}
+.shop_inner{
+    height: 280px;
+    background: #e6e6e6;
+    border-top: #ccc;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+.shop_inner .shop_top,strong{
+   text-align: center;
+   color: #696a6e;
+   font-weight: bold;
+}
+#shop ul li{
+    float: left;
+    width: 250px;
+}
+#shop ul li em{
+    display: block;
+    margin-left: 82px;
+    margin-top: -41px;
+}
+#shop ul li img{
+    margin-top: 23px;
+}
+/* 尾部 */
+#footer{
+    background: #25282d;
+}
+.footer_inner{
+    padding-top: 30px;
+    box-sizing: border-box;
+    height: 332px;
+    color: #525659;
+    background: #25282d;
+}
+.footertop{
+    height: 136px;
+}
+.footertop .footerleft{
+    float: left;
+}
+.footertop .footerleft span{
+    margin-left: 40px; 
+}
+.footertop .footerleft em{
+    margin-left: 70px;
+}
+.footerleft:nth-child(1) {
+  display: block;
+} 
+.footertop .footerright{
+    float: right;
+}
+.footerbot p{
+    line-height: 24px;
+}

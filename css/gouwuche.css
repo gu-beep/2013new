@@ -1,0 +1,112 @@
+#main{
+    min-height: 400px;
+}
+.shopping{
+    text-align: center;
+    margin-top: 60px;
+}
+.shopping span{
+    color: skyblue;
+}
+.shopping span,strong{
+    margin: 0 40px;
+    font-weight: normal;
+}
+/* 收货地址 */
+#main .hoo{
+    height: 200px;
+}
+#main h3{
+    font-size: 18px;
+}
+#main .dii{
+    min-height: 200px;
+}
+.hoo .huo1{
+    display:inline-block;
+    margin-top: -20px;
+}
+/* 订单详情 */
+#main .tt{
+    width: 675px;
+    height: 28px;
+    margin-bottom: 30px;
+    background: #e6e6e6;
+    border: 0;
+    margin-left: 6px;
+}
+#main .txt{
+    width: 200px;
+    height: 26px;
+    background: 0;
+    border: 2px solid #e6e6e6;
+    margin-left: 30px;
+    text-indent: 1em;
+}
+#main .span1{
+    display: inline-block;
+    width: 80px;
+    height: 28px;
+    background: #87cfeba6;
+    margin:0 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+}
+.dii .an{
+    width: 12px;
+    height: 12px;
+    margin-top: 20px;
+}
+.dii em{
+    margin: 0 160px;
+}
+.dii i{
+    margin-left:104px;
+}
+.zpp .zpp1,.chex,.ass10{
+    float: left;
+}
+.zpp .zpp1{
+    margin: 0 190px 0 40px;
+}
+.zpp .te{
+   border: 0;
+   width: 14px;
+   height: 14px;
+   text-align: center;
+}
+.ong{
+    margin-left: 92px;
+    color: #000;
+}
+.zppt b{
+    cursor: pointer;
+}
+.zong{
+    width: 1000px;
+    height: 80px;
+}
+.zong .left{
+    float: left;
+}
+.zong .rigt{
+    float: right;
+}  
+.zong .left .ipt{
+    margin: 0 30px;
+}
+.zong .rigt .span4{
+    margin: 0 20px;
+}
+.zong .rigt .span5{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background: red;
+    text-align: center;
+    line-height: 30px;
+}
+.zong .rigt em {
+    color: red;
+}
